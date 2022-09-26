@@ -1,0 +1,38 @@
+#footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+#footer .boxes{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    height: 200px;
+    width: 180px;
+    margin:30px;
+    list-style: none;
+}
+.Gheading{
+    color: #737373;
+    margin-left: 295px;
+    margin-top: 50px;
+    font-size: 14px;
+}
+.box ul li{
+    list-style: none;
+    margin:7px;
+}
+.box ul li a{
+    color: #737373;
+    text-decoration: none;
+    font-size: 14px;
+}
+.box ul li a:hover{
+    text-decoration: underline;
+}
+
+.lastFooter{
+    color: #737373;
+    font-size: 14px;
+}

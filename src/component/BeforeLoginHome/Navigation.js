@@ -5,8 +5,10 @@ import './CSS/Navigation.css'
 const Navigation = () => {
   return (
     <nav>
-        <img src={Logo} alt="Logo" />
+      <img src={Logo} alt="Logo" />
+      <a href="/login">
         <button className='btn btn-signin'>Sign In</button>
+      </a>
     </nav>
   )
 }

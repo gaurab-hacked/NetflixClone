@@ -1,6 +1,7 @@
 import React from 'react'
 import './CSS/Content.css'
 import Eachsection from './Eachsection'
+import './CSS/Information.css'
 
 
 const Content = () => {
@@ -51,14 +52,14 @@ const Content = () => {
           })
         }
         <p className='contentparagraph'>Ready to watch? Enter your email to create or restart your membership.</p>
-        <div className="contactcontent">
-          <div className='ContactdetInpFld'>
-            <input type="email" name='email' id='email' placeholder='Email address' />
-            <button className='btn'>Get Started</button>
-          </div>
+      </div>
+      <div id="contentSectionBtn">
+        <div className="contactSection">
+          <input type="email" name="email" id="email" placeholder='Email address' />
+          <button>Get Started</button>
         </div>
       </div>
-
+      <div className="downshadow"></div>
     </>
   )
 }

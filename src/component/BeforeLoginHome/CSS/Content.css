@@ -5,8 +5,8 @@
   height: 100%;
   background-color: black;
   color: white;
-  padding-bottom: 100px;
   transition: 0.5s;
+  padding-bottom: 7px;
 }
 #FAQSection .heading {
   font-size: 3rem;
@@ -87,26 +87,39 @@
   margin-top: 50px;
   font-size: 1.3rem;
 }
-.contactcontent {
-  width: 100%;
+#contentSectionBtn{
+  height: 100%;
+  width: 100;
+  background-color: black;
   display: flex;
+  align-items: center;
   justify-content: center;
+  padding-top: 10px;
 }
-.contactcontent input {
-  height: 60px;
-  width: 500px;
-  padding: 10px;
-  font-size: 17px;
-  color: rgb(255, 255, 255, 0.4);
+#contentSectionBtn .contactSection{
+  position: relative;
+  width: 60%;
+  margin-bottom: 100px;
 }
-.contactcontent button {
+#contentSectionBtn input{
+  height: 65px;
+  padding: 0 20px;
+  font-size: 18px;
+  width: 70%;
+  color: rgb(255, 255, 255, .6);
+}
+#contentSectionBtn button{
+  height: 65px;
+  border: none;
+  outline: none;
+  padding: 10px 30px;
   font-size: 2rem;
+  position: absolute;
+  background-color: red;
+  color: white;
   cursor: pointer;
-  margin-top: 20px;
-  height: 60px;
-  padding: 0 30px;
-
 }
-.contactcontent button:hover {
-  background-color: rgb(255, 0, 0, 0.8);
+
+#contentSectionBtn button:hover{
+  background-color: rgb(255, 0, 0, .9);
 }
