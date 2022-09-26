@@ -1,0 +1,71 @@
+#HomeBeforeLogin{
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    z-index: 1;
+    color: white;
+    background:radial-gradient(rgb(20, 18, 18), black 80%);
+}
+#HomeBeforeLogin::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    opacity: .2;
+    background-image: url('../../../pictures/homeImg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#HomeBeforeLogin .homeContent{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    line-height: 1;
+}
+
+#HomeBeforeLogin h1{
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 600;
+}
+#HomeBeforeLogin h5{
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+#HomeBeforeLogin p{
+    font-size: 1.4rem;
+}
+#HomeBeforeLogin .detInpFld{
+    display: flex;
+
+}
+
+.detInpFld input{
+    height: 60px;
+    width: 500px;
+    padding: 10px;
+    font-size: 17px;
+    color: rgb(255, 255, 255, .4);
+}
+.detInpFld button{
+    font-size: 2rem;
+    padding: 0 30px;
+    cursor: pointer;
+}
+.detInpFld button:hover{
+    background-color: rgb(255, 0, 0, .8);
+}

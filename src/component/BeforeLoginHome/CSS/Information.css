@@ -1,0 +1,121 @@
+.heading{
+  font-size: 3rem;
+  font-weight: 600;
+}
+.paragraph{
+  font-size: 1.8rem;
+  /* font-weight: 600; */
+  margin: 20px 0;
+}
+#FirstInfoTV,
+#DownloadShow,
+#whatcheverywhere, #createProfileKids{
+  width: 100%;
+  height: 65vh;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+#TVrightBox {
+  width: 40%;
+  margin-left: 10%;
+}
+#TVLeftBox {
+  margin-left: 30px;
+}
+.tvVideo {
+  width: 500px;
+  height: 400px;
+  position: relative;
+}
+.tvVideo img {
+  width: 475px;
+  height: 345px;
+  position: absolute;
+  z-index: 1;
+}
+.tvVideo video {
+  height: 66%;
+  width: 70%;
+  margin: 31px 61px;
+}
+
+.upshadow,
+.downshadow {
+  height: 8px;
+  width: 100%;
+  background-color: rgb(51, 51, 49);
+}
+
+#DownloadShow .downloadRightBox {
+  height: 400px;
+  width: 530px;
+  margin-right: 10%;
+  position: relative;
+}
+#DownloadShow .downloadRightBox img {
+  height: 100%;
+  width: 100%;
+}
+#DownloadShow .filmdownloadShow {
+  height: 100px;
+  position: absolute;
+  width: 350px;
+  background-color: rgb(0, 0, 0);
+  bottom: 20px;
+  margin: auto;
+  right: 0;
+  left: 0;
+  border-radius: 10px;
+  border: 2px solid rgb(51, 51, 49);
+  display: flex;
+  align-items: center;
+}
+
+#DownloadShow .filmdownloadShow img {
+  height: 80px;
+  width: 65px;
+  margin: 10px 13px;
+  border-radius: 5px;
+}
+
+#DownloadShow .content {
+  margin-left: 5px;
+}
+#DownloadShow .filmdownloadShow h3 {
+  font-weight: 600;
+}
+#DownloadShow .filmdownloadShow p {
+  color: blue;
+}
+
+#loaderImg img {
+  height: 50px !important;
+  width: 50px !important;
+  margin-left: 50px !important;
+}
+#DownloadShow .downloadLeftBox {
+  width: 40%;
+}
+#DownloadShow .downloadLeftBox .paragraph{
+  font-weight: 600;
+}
+#whatcheverywhere{
+  height: 40vh;
+  justify-content: start;
+}
+#whatcheverywhere .rightBoxWatchLater{
+  margin: 10%;
+  width: 40%;
+}
+.CPKRightsec img{
+  margin-left: 10%;
+  scale: .9;
+}
+
+.CPKLeftec{
+  width: 40%;
+}

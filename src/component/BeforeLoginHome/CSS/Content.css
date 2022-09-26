@@ -1,0 +1,112 @@
+.text-center {
+  text-align: center;
+}
+#FAQSection {
+  height: 100%;
+  background-color: black;
+  color: white;
+  padding-bottom: 100px;
+  transition: 0.5s;
+}
+#FAQSection .heading {
+  font-size: 3rem;
+  font-weight: 600;
+  padding: 50px;
+}
+#cards {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+#cards .heading {
+  background: #303030;
+  height: 70px;
+  width: 70%;
+  margin: 5px;
+  padding: 0 20px;
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.icon {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.uperrow {
+  height: 2.2px;
+  width: 30px;
+  background-color: white;
+  display: flex;
+  position: relative;
+}
+.uperrow::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 30px;
+  width: 2px;
+  background-color: white;
+  margin: auto;
+}
+
+#cards .cardsDis {
+  background: #303030;
+  width: 70%;
+  font-size: 1.6rem;
+  padding: 30px;
+  display: none;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+  display: block !important;
+}
+.cardHide {
+  display: none !important;
+}
+.rotate {
+  transform: rotateZ(45deg) !important;
+}
+.contentparagraph {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.3rem;
+}
+.contactcontent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.contactcontent input {
+  height: 60px;
+  width: 500px;
+  padding: 10px;
+  font-size: 17px;
+  color: rgb(255, 255, 255, 0.4);
+}
+.contactcontent button {
+  font-size: 2rem;
+  cursor: pointer;
+  margin-top: 20px;
+  height: 60px;
+  padding: 0 30px;
+
+}
+.contactcontent button:hover {
+  background-color: rgb(255, 0, 0, 0.8);
+}
