@@ -1,0 +1,116 @@
+#LoginPage{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: rgb(0, 0, 0, .9);
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+#LoginPage::before{
+    content: "";
+    position: absolute;
+    top: 0;right: 0;bottom: 0;left: 0;
+    background:url('../../../pictures/homeImg.jpg');
+    background-size: cover;
+    opacity: .4;
+    z-index: -1;
+    background-repeat: no-repeat;
+    scale: 1.2;
+}
+#LoginPage .logincard{
+    width: 30%;
+    height: 78%;
+    background-color: rgb(0, 0, 0, .7);
+    border-radius: 5px;
+    color: white;
+    margin: auto;
+    padding: 50px 70px;
+}
+
+.logincard form{
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+    margin-top: 30px;
+}
+.logincard form input{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #333;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 17px;
+    
+}
+.logincard form input:focus{
+    border-bottom: 2px solid red;
+}
+.logincard form button{
+    margin: 15px 0 10px 0;
+    font-size: 17px;
+    padding: 15px 0;
+    font-weight: 600;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.logincard .extracon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+}
+.logincard form a{
+    color: #b3b3b3;
+    font-size: 14px;
+    text-decoration: none;
+}
+.logincard form span{
+    color: #b3b3b3;
+    margin-top: 20px;
+}
+.logincard form p{
+    font-size: 14px;
+    color: #b3b3b3;
+    margin-bottom: 10px;
+}
+#singupnoe{
+    font-weight: 600;
+    font-size: 17px;
+    color: white;
+}
+.logincard form .learnMore{
+    color: blue;
+}
+.logincard form a:hover{
+    text-decoration: underline;
+}
+input[type=checkbox]{
+    scale: 1.2px;
+}
+
+input[type=checkbox]:checked{
+    background-color: #FA9E57;
+}
+.firstcontent span{
+    margin: 0px 0px 1px 3px;
+}
+.logincard form .ErrorInpfld{
+    font-size: 13px;
+    margin-left: 4px;
+    margin-top: 2px;
+    color: red!important;
+}
+.logincard form .extracon{
+    margin-bottom: 40px;
+}
+.logincard form .signup{
+    margin-bottom: 15px;
+}

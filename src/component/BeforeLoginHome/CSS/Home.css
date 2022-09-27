@@ -60,6 +60,8 @@
     padding: 10px;
     font-size: 17px;
     color: rgb(255, 255, 255, .4);
+    color: black;
+    outline: none;
 }
 .detInpFld button{
     font-size: 2rem;

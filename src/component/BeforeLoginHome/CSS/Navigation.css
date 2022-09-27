@@ -9,10 +9,12 @@ nav{
     top: 10px;
 }
 
+nav a{
+    margin: 0 5%;
+}
 nav img{
     height: 85px;
     width: 180px;
-    margin: 0 5%;
 }
 .btn{
     padding: 8px 15px;
@@ -20,6 +22,7 @@ nav img{
     font-size: 17px;
     color: white;
     border: none;
+    cursor: pointer;
 }
 nav .btn-signin{
     margin: 0 5%;

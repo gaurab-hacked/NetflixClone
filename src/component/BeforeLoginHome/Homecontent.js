@@ -1,5 +1,4 @@
 import React from 'react'
-import Navigation from './Navigation';
 import Information from './Information';
 import './CSS/Home.css'
 import Content from './Content';
@@ -11,7 +10,6 @@ import Footer from './Footer';
 const Homecontent = () => {
     return (
         <>
-            <Navigation />
             <div id='HomeBeforeLogin'>
                 <div className='homeContent'>
                     <h1>Unlimited movies, TV shows, and more.</h1>
